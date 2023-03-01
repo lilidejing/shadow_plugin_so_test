@@ -26,9 +26,8 @@ demo所用shadow版本：
 
 
 
-2023-03-01 11:14:13.650 18888-18888/com.tencent.shadow.sample.host E/AndroidRuntime: FATAL EXCEPTION: main
-    Process: com.tencent.shadow.sample.host:plugin, PID: 18888
-    java.lang.UnsatisfiedLinkError: com.tencent.shadow.core.loader.classloaders.PluginClassLoader[DexPathList[[zip file "/data/user/0/com.tencent.shadow.sample.host/files/ShadowPluginManager/UnpackedPlugin/sample-manager/30debf5002f47c8e419059c3f86e210e/plugin-debug.zip/plugin-app-plugin-iwirst-debug.apk"],nativeLibraryDirectories=[/system/lib64]]] couldn't find "libtquic.so"
+ Process: com.tencent.shadow.sample.host:plugin, PID: 32149
+    java.lang.UnsatisfiedLinkError: com.tencent.shadow.core.loader.classloaders.PluginClassLoader[DexPathList[[zip file "/data/user/0/com.tencent.shadow.sample.host/files/ShadowPluginManager/UnpackedPlugin/sample-manager/271d12440351a09d7f997b4f8462a29c/plugin-debug.zip/plugin-app-plugin-iwirst-debug.apk"],nativeLibraryDirectories=[/system/lib64]]] couldn't find "libtquic.so"
         at java.lang.Runtime.loadLibrary0(Runtime.java:1012)
         at java.lang.System.loadLibrary(System.java:1669)
         at com.tencent.protocol.PrivateLink.<clinit>(PrivateLink.java:15)

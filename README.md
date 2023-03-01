@@ -1,0 +1,2 @@
+# shadow_plugin_so_test
+插件中集成so，宿主启动插件时报so找不到demo
